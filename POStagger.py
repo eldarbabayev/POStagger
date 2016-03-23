@@ -54,8 +54,8 @@ def load_all_data(path, number_of_test):
     training_data = []
     test_data = []
 
-    range_test_data_start = int(round(length_of_content * number_of_test * 0.1, -1))
-    range_test_data_end = range_test_data_start + int(round(length_of_content * 0.1, -1)) - 4
+    range_test_data_start = int(round(length_of_content * number_of_test * 0.1))
+    range_test_data_end = range_test_data_start + int(round(length_of_content * 0.1)) - 4
     ninety_percent_of_data = int(round(length_of_content * 0.9, -1))
 
     # load the training data
